@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FC2B93851B4BFBA2002E5A02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B93841B4BFBA2002E5A02 /* AppDelegate.swift */; };
-		FC2B93871B4BFBA2002E5A02 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B93861B4BFBA2002E5A02 /* MasterViewController.swift */; };
-		FC2B93891B4BFBA2002E5A02 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B93881B4BFBA2002E5A02 /* DetailViewController.swift */; };
-		FC2B938C1B4BFBA2002E5A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2B938A1B4BFBA2002E5A02 /* Main.storyboard */; };
 		FC2B938E1B4BFBA2002E5A02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2B938D1B4BFBA2002E5A02 /* Images.xcassets */; };
 		FC2B93911B4BFBA2002E5A02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2B938F1B4BFBA2002E5A02 /* LaunchScreen.xib */; };
 		FC2B939D1B4BFBA2002E5A02 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B939C1B4BFBA2002E5A02 /* DemoTests.swift */; };
+		FC2B93A71B4BFC2D002E5A02 /* erNaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B93A61B4BFC2D002E5A02 /* erNaoViewController.swift */; };
+		FC2B93A91B4C2235002E5A02 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B93A81B4C2235002E5A02 /* TableViewController.swift */; };
+		FCE3D7981B4C275E0043AB76 /* NoeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3D7971B4C275E0043AB76 /* NoeCollectionViewCell.swift */; };
+		FCE3D79A1B4C27EF0043AB76 /* peek.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCE3D7991B4C27EF0043AB76 /* peek.gif */; };
+		FCE3D79C1B4C28B60043AB76 /* 24x24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE3D79B1B4C28B60043AB76 /* 24x24@2x.png */; };
+		FCE3D79E1B4C2AC40043AB76 /* ernaoDCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3D79D1B4C2AC40043AB76 /* ernaoDCollectionViewCell.swift */; };
+		FCE3D7A01B4C2B590043AB76 /* gerenzhuye_jianbian_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE3D79F1B4C2B590043AB76 /* gerenzhuye_jianbian_@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +34,18 @@
 		FC2B937F1B4BFBA2002E5A02 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B93831B4BFBA2002E5A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2B93841B4BFBA2002E5A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC2B93861B4BFBA2002E5A02 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		FC2B93881B4BFBA2002E5A02 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		FC2B938B1B4BFBA2002E5A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC2B938D1B4BFBA2002E5A02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC2B93901B4BFBA2002E5A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FC2B93961B4BFBA2002E5A02 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B939B1B4BFBA2002E5A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2B939C1B4BFBA2002E5A02 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
+		FC2B93A61B4BFC2D002E5A02 /* erNaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = erNaoViewController.swift; sourceTree = "<group>"; };
+		FC2B93A81B4C2235002E5A02 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FCE3D7971B4C275E0043AB76 /* NoeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoeCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCE3D7991B4C27EF0043AB76 /* peek.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = peek.gif; sourceTree = "<group>"; };
+		FCE3D79B1B4C28B60043AB76 /* 24x24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24x24@2x.png"; sourceTree = "<group>"; };
+		FCE3D79D1B4C2AC40043AB76 /* ernaoDCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ernaoDCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCE3D79F1B4C2B590043AB76 /* gerenzhuye_jianbian_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gerenzhuye_jianbian_@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +87,14 @@
 		FC2B93811B4BFBA2002E5A02 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				FCE3D79B1B4C28B60043AB76 /* 24x24@2x.png */,
+				FCE3D79F1B4C2B590043AB76 /* gerenzhuye_jianbian_@2x.png */,
+				FCE3D7991B4C27EF0043AB76 /* peek.gif */,
 				FC2B93841B4BFBA2002E5A02 /* AppDelegate.swift */,
-				FC2B93861B4BFBA2002E5A02 /* MasterViewController.swift */,
-				FC2B93881B4BFBA2002E5A02 /* DetailViewController.swift */,
-				FC2B938A1B4BFBA2002E5A02 /* Main.storyboard */,
+				FC2B93A61B4BFC2D002E5A02 /* erNaoViewController.swift */,
+				FCE3D7971B4C275E0043AB76 /* NoeCollectionViewCell.swift */,
+				FCE3D79D1B4C2AC40043AB76 /* ernaoDCollectionViewCell.swift */,
+				FC2B93A81B4C2235002E5A02 /* TableViewController.swift */,
 				FC2B938D1B4BFBA2002E5A02 /* Images.xcassets */,
 				FC2B938F1B4BFBA2002E5A02 /* LaunchScreen.xib */,
 				FC2B93821B4BFBA2002E5A02 /* Supporting Files */,
@@ -195,8 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2B938C1B4BFBA2002E5A02 /* Main.storyboard in Resources */,
 				FC2B93911B4BFBA2002E5A02 /* LaunchScreen.xib in Resources */,
+				FCE3D79C1B4C28B60043AB76 /* 24x24@2x.png in Resources */,
+				FCE3D79A1B4C27EF0043AB76 /* peek.gif in Resources */,
+				FCE3D7A01B4C2B590043AB76 /* gerenzhuye_jianbian_@2x.png in Resources */,
 				FC2B938E1B4BFBA2002E5A02 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2B93891B4BFBA2002E5A02 /* DetailViewController.swift in Sources */,
-				FC2B93871B4BFBA2002E5A02 /* MasterViewController.swift in Sources */,
+				FCE3D79E1B4C2AC40043AB76 /* ernaoDCollectionViewCell.swift in Sources */,
+				FC2B93A71B4BFC2D002E5A02 /* erNaoViewController.swift in Sources */,
+				FC2B93A91B4C2235002E5A02 /* TableViewController.swift in Sources */,
 				FC2B93851B4BFBA2002E5A02 /* AppDelegate.swift in Sources */,
+				FCE3D7981B4C275E0043AB76 /* NoeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +256,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC2B938A1B4BFBA2002E5A02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC2B938B1B4BFBA2002E5A02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC2B938F1B4BFBA2002E5A02 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +421,7 @@
 				FC2B93A21B4BFBA2002E5A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC2B93A31B4BFBA2002E5A02 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				FC2B93A51B4BFBA2002E5A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
